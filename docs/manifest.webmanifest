@@ -1,0 +1,57 @@
+{
+  "id": "./",
+  "name": "Batcomputer MK-IV",
+  "short_name": "Batcomputer",
+  "description": "Voice-first project console that runs in your browser.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#040302",
+  "theme_color": "#0a0705",
+  "shortcuts": [
+    {
+      "name": "Car display",
+      "short_name": "Car",
+      "description": "Full-screen phone display for calls and texts",
+      "url": "./?car=1",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Apps",
+      "short_name": "Apps",
+      "url": "./?view=apps",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
